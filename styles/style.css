@@ -38,14 +38,21 @@ body {
     line-height: 1.2;
 }
 
+#topbar{
+    background: #fff;
+    height: 2em;
+    border: grey 1px solid;
+
+}
+
 .topbar-container-flex{
     display: flex;
     justify-content: space-between;
-    
+    padding: 5px;
 }
 
 .container-contact {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
 }
@@ -119,9 +126,25 @@ a:active {
 
 /* sizes and spaces of the page */
 
+#main-header {
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
 .main-container {
+    background: #fff;
     max-width: 960px;
     margin: auto;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-principal{  
+    margin: 0 10px;
+    
 }
 
 #about, 
